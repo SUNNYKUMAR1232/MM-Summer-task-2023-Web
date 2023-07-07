@@ -1,0 +1,86 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: aliceblue;
+}
+.article_container{
+            margin-top: 1em;
+            padding: .2em;
+            width: 100%;
+            height: 20em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: rgb(15, 11, 38)
+}
+.article_img__box{
+            width: 30%;
+            height: 90%;
+            border-radius: 23px;
+}
+.article_img{
+            width: 100%;
+            height: 100%;
+            border-radius: 23px;
+}
+.aricle_section{
+            width: 70%;
+            height: 90%;
+            border-radius: 23px;
+            margin-left: 1em;
+            padding: 1em;
+}
+.article_title{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: .5em;
+}
+.article_title{
+            width: 100%;
+            height: 15%;
+          
+}
+.article_title__text{
+  font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: .5em;
+             overflow: hidden;
+}
+.article_content{
+            width: 100%;
+            height: 75%;
+}
+.article_content__text{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: .5em;
+            overflow: hidden;
+}
+.article_more{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            
+            align-items: center;
+}
+.article_like__btn{
+            width: 10%;
+            height: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 2em;
+            border: none;
+}
+.article_more span{
+  color: aliceblue;
+}
+
+.like_count{
+            font-size: 1.5em;
+            color: whitesmoke;
+}
