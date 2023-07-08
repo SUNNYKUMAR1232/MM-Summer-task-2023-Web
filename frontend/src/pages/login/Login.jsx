@@ -4,7 +4,7 @@ import "../login/style.css"
 const Login = () => {
   return (
     <>
-      <section className="container">
+      <div className="container">
         <div className="sub_container">
           <div className="login_heading ">
             <h1 className="login_heading__text">Log In</h1>
@@ -28,7 +28,7 @@ const Login = () => {
             <button className="signup_button">Sign Up</button>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

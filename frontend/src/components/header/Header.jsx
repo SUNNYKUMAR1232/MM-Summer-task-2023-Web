@@ -1,4 +1,5 @@
 
+import { NavLink } from "react-router-dom";
 import "./header_style.css";
 import { FaBars } from "react-icons/fa";
 
@@ -26,10 +27,11 @@ const Header = ({handleToggleSidebar}) => {
         <div className="nav_subconatainer_3">
           <ul className="nav_ul">
             <li className="nav_li">
-              <a href="#5">Login</a>
+              <NavLink to="/login">Login</NavLink>
             </li>
             <li className="nav_li">
-              <a href="#5">SignUp</a>
+             <NavLink
+              to="/signup">SignUp</NavLink>
             </li>
           </ul>
         </div>

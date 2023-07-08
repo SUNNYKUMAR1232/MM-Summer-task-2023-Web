@@ -1,12 +1,14 @@
-// this is the main file of the frontend
-import Home from './pages/home/Home';
+import React from 'react';
+
+import Routers from './router/Routers';
+
 function App() {
   return (
   <>
-      <div className='app_container'>
-          <Home/>
-      </div>
-        
+          
+    
+     
+        <Routers/>    
               
    </>
   );
