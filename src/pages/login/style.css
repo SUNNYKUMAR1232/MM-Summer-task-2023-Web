@@ -1,0 +1,116 @@
+*{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+}
+
+.container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0c113e;
+            width: 100%;
+            height: 64em;
+}
+.sub_container {
+            /* position: absolute; */
+            border-radius: 29px;
+            background-color: #061858;
+            box-shadow: 0 0 50px 15px #0d0508;
+            border: 1px solid #000;
+            min-width: 52.56em;
+            height: 47.19em;
+}
+.login_heading{
+            margin-top: 4em;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+}
+.login_heading__text{
+            font-size: 3.5em;
+            font-weight: 600;
+            color: #fff;
+}
+.login_username{
+            width:80% ;
+            margin-left: 3em;
+            margin-top: 4em;
+}
+.login_username__text{
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 2em;
+}
+.login_username__input{
+            margin-top: 1em;
+            margin-left: 3em;
+            width: 80%;
+            height: 3em;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+}
+.login_username__input__text{
+            font-size: 2.5em;
+            color: #323131;
+            margin-left: 2em;
+            outline-style: none;
+            border: none;
+            border-radius: 10px;
+            padding-left: .5em;
+
+            
+
+}
+.login_password{
+            width:80% ;
+            margin-left: 3em;
+            margin-top: 4em;
+}
+.login_password__text{
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 2em;
+}
+.login_password__input{
+            margin-top: 1em;
+            margin-left: 3em;
+            width: 80%;
+            height: 3em;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+}
+.login_password__input__text{
+            font-size: 2.5em;
+            color: #323131;
+            margin-left: 2em;
+            outline-style: none;
+            border: none;
+            border-radius: 10px;
+             padding-left: .5em;
+}
+.login_submit ,.signup{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 5em;  
+            margin-top: 2em;        
+}
+.login_submit__button ,.signup_button{
+            font-size: 4.5em;
+            border-radius: 10px;
+            font-weight: 600;
+           background-color: transparent ;
+           border: none;
+           color: #413aa8;
+          box-shadow: 1px 1px 44px 8px rgba(0, 0, 0, 0.25); 
+}
+

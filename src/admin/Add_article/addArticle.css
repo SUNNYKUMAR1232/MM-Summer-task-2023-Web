@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+
+:root{
+    --dark: #2b2d42;
+    --light: #adb5bd;
+    --border: #dee2e6;
+    --border-btn: #edf2f4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 4rem;
+    width: 100%;
+    background-color: #06d6a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0  0.5px rgba(0,0,0,0.9);
+    
+} 
+.containers{
+    max-width: 1024px;
+    margin: auto;
+}
+.text-center a{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+.article_add__box{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background-color: #dee2e6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image_box ,.title_box{
+    padding: 2em ;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.image_box label ,.title_box label{
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.image_box input,.title_box input{
+    outline: none;
+    border: none;
+    height: 3em;
+    font-size: 1.2em;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+    padding-left: 2em;
+    color: #000000;
+
+}
+.paragraph_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+     padding: 2em;
+     gap: 2em;
+}
+.paragraph_box h3{
+     font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.paragraph_box .paragraph_text{
+    font-size: 1.5em;
+  padding: 1em;
+    width: 100%;
+    height: 80%;
+    background-color: #e5e6e8;
+    outline: none;
+    border: none;
+    
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+}
+.paragraph_box input{
+    font-size: 1.5em;
+  padding: 1em;
+    width: 100%;
+    height: 80%;
+    background-color: #e5e6e8;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+}
+.submit_btn ,.btn {
+  width: 20rem;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  background: #495057;
+  color: #e9ecef;
+  cursor: pointer;
+}
+.submit_btn:hover,.btn:hover {
+  background: rgb(52, 58, 64);
+  border-radius: 54px;
+  box-shadow: 0px 0px 0px 10px rgba(52, 58, 64, 0.18);
+  transition: all 0.3s ease 0s;
+}

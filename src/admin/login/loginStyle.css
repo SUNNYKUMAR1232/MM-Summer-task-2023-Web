@@ -1,0 +1,96 @@
+.login_container{
+    height: 100vh;
+    min-width: 670px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6em;
+}
+.login_form{
+    height: 30rem;
+    width: 30rem;
+    background-color:  #edf2f4;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+.login_form h1{
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2px;
+}
+.username_box,.password_box{
+    height: 6rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+.username_box label,.password_box label{
+    font-size: 1.3rem;
+    color: #000000;
+    word-spacing: 2px;
+}
+.username_box input ,.password_box input{
+    height: 2.7rem;
+    width: 20rem;
+    font-size: 1.2em;
+     border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 1em;
+  background: #e1e1e1;
+  border-bottom:2px solid #000000;
+    word-spacing: 2px;
+}
+.username_box input:hover,
+.password_box input:hover {
+  height: 2.8em;
+  background: #e9ecef;
+  transition: all 0.3s ease 0s;
+}
+
+.submit_btn ,.btn {
+  width: 20rem;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  background: #495057;
+  color: #e9ecef;
+  cursor: pointer;
+}
+.submit_btn:hover,.btn:hover {
+  background: rgb(52, 58, 64);
+  border-radius: 54px;
+  box-shadow: 0px 0px 0px 10px rgba(52, 58, 64, 0.18);
+  transition: all 0.3s ease 0s;
+}
+.back_link {
+  position: absolute;
+  text-decoration: none;
+  top: 5em;
+  left: 4em;
+}
+
+.back_link__text {
+  font-size: 1.4em;
+  color: #495057;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back_link__text:hover {
+  color: #316eab;
+}
+/* === End === */

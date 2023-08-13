@@ -1,0 +1,182 @@
+
+
+/* === User management header=== */
+.container{
+    height: 4rem;
+    width: 100%;
+    background-color: #06d6a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0  0.5px rgba(0,0,0,0.9);
+    
+}
+.text-center a{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+/* === Admin header===  */
+.admin_container{
+    height: 4rem;
+    width: 100%;
+    background-color: #06d6a0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 1;
+    
+}
+.text_style span{
+    color: #090909;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+.line-style{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.line-style a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-left: 1em;
+    word-spacing: 1px;
+}
+.line-style a:hover{
+    color: #ffffff;
+}
+.line-style li{
+    margin-left: 1em;
+}
+/* === End === */
+/* === Login page  === */
+
+/* === Add Article === */
+
+.article_add__box{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background-color: #dee2e6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image_box ,.title_box{
+    padding: 2em ;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.image_box label ,.title_box label{
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.image_box input,.title_box input{
+    outline: none;
+    border: none;
+    height: 3em;
+    font-size: 1.2em;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+    padding-left: 2em;
+    color: #000000;
+
+}
+.paragraph_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+     padding: 2em;
+     gap: 2em;
+}
+.paragraph_box h3{
+     font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.paragraph_box .paragraph_text{
+    font-size: 1.5em;
+  padding: 1em;
+    width: 100%;
+    height: 80%;
+    background-color: #e5e6e8;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+}
+.paragraph_box input{
+    font-size: 1.5em;
+  padding: 1em;
+    width: 100%;
+    height: 80%;
+    background-color: #e5e6e8;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+    
+}
+
+/* === End === */
+/* === Home === */
+.links{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 8em;
+}
+.link {
+   width: 100%;
+   height: 15em;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+.link a{
+    height: 5rem;
+    width: 20rem;
+    background-blend-mode: darken;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    word-spacing: 2px;
+
+    box-shadow: 0 0 12px 0.5rem rgba(0,0,0,0.5);
+}
+.link a:hover{
+    background-color: #06d6a0;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+}

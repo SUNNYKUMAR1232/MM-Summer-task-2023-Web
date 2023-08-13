@@ -1,0 +1,99 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+}
+.signup_conatainer {
+            position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #0c113e;
+                        width: 100%;
+                        height: 64em;
+                        overflow: hidden;
+}
+
+
+ .signup_subconatainer {
+            background: conic-gradient(from 180deg at 50% 50%,
+                                    rgb(185.08, 157.11, 85.19) 30deg,
+                                    rgb(124.63, 118.58, 194.19) 99.37deg,
+                                    rgb(48.7, 37.7, 175.2) 204.37deg,
+                                    rgba(8.43, 192.71, 204.47, 0.92) 300deg);
+            border-radius: 33px;
+            width: 42.44em;
+            height: 40.63em;
+}
+
+.heading {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3em;
+
+}
+.heading_text {
+            font-size: 3.5em;
+            font-weight: 600;
+            color: #fff;
+}
+
+.firstname {
+            width: 100%;
+            margin-top: 3em;
+}
+
+.firstname_text {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 5em;
+}
+.firstname_input{
+            border: none;
+            outline: none;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 2em;
+            background-color: rgba(255, 255, 25, 0.1);
+}
+.ckeckbox{
+            margin-top: 3em;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            margin-left: 7em ;
+
+}
+.ckeckbox_text{
+            font-size: 1.5em;
+            color: #fff;
+}
+.ckeckbox_input{
+           margin-left: 1em;
+            
+            }
+
+.submit{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 3em;
+}
+.submit button{
+           padding: 12px;
+            border: none;
+            border-radius: 12px;
+            background-color: #0c113e;
+            color: #fff;
+            font-size: 2.5em;
+}

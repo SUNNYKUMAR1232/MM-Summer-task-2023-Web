@@ -1,0 +1,55 @@
+
+/* === Signup page === */
+.name_box{
+    height: 6rem;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    gap:1em;
+    justify-content: space-between;
+}
+.firstname_box label ,.lastname_box label{
+     font-size: 1.3rem;
+    color: #000000;
+    word-spacing: 2px;
+}
+.firstname_box  {
+    height: 5rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+   
+}
+
+.lastname_box {
+    height: 5rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    
+}
+.firstname_box input  ,.lastname_box input{
+height: 2.7rem;
+width: 9rem;
+border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 1em;
+  font-size: 1.2em;
+  background: #eeeeee;
+  border-bottom:2px solid #000000;
+    word-spacing: 2px;
+}
+.firstname_box input:hover,
+.lastname_box input:hover {
+  height: 2.8em;
+  background: #e9ecef;
+  transition: all 0.3s ease 0s;
+}
+/* === End === */

@@ -1,0 +1,21 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+            list-style: none;
+}
+
+.footer_container{
+    width: 100%;
+    height: 6em;
+    background-color: rgb(18, 16, 61);
+    padding: 2em;
+
+}
+.row{
+       display: flex;
+         justify-content: space-around;
+            align-items: center;
+
+} 
